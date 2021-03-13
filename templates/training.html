@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if 'инженер' in prof or 'строитель' in prof%}
+        <div>
+            <h2>Инженерные тренажеры</h2>
+            <img src="https://activemarkt.ru/images/thumbnails/400/350/detailed/2/Lyjnik_ava.jpg">
+        </div>
+    {% else %}
+       <div>
+            <h2>Научные симуляторы</h2>
+            <img src="https://coworkingnamur.be/wp-content/uploads/2017/08/Capture-d’écran-2017-11-28-à-17.34.23-768x461.png">
+        </div>
+    {% endif %}
+{% endblock %}

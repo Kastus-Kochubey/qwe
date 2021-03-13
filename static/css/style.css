@@ -1,0 +1,25 @@
+h1.header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20pt;
+
+}
+
+h1.emergy {
+    background: url('https://yastatic.net/s3/lyceum/content/images/second-year/web/MARS-2-7.png') no-repeat;
+    padding-left: 160px;
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+h2.action {
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+table.table {
+    margin-bottom: 50px;
+}
